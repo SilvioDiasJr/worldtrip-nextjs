@@ -28,13 +28,14 @@ export default function Slider() {
           bgPosition='center'
           bgSize='cover'
         >
-          <Link href='/' passHref>
+          <Link href='/continents' passHref>
             <ChakraLink
               position='absolute'
               textAlign='center'
               textDecoration='none'
               color='headings_light'
-              _hover={{ color: 'red' }}
+              transition='0.3s'
+              _hover={{ color: '#FFBA08' }}
             >
               <Box>
                 <Heading
@@ -68,7 +69,7 @@ export default function Slider() {
           bgPosition='center'
           bgSize='cover'
         >
-          <Link href='/' passHref>
+          <Link href='/continents' passHref>
             <ChakraLink
               position='absolute'
               textAlign='center'
